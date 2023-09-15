@@ -49,6 +49,7 @@
 	padding-bottom: 5%;
 }
 
-.footer_icons img:not(:last-child) {
+.footer_icons a:not(:last-child) {
+	display: block;
 	padding-right: 3%;
 }
