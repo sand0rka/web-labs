@@ -1,0 +1,37 @@
+
+.pricing__inner {
+	width: 65%;
+	padding-top: 5%;
+}
+
+.pricing__variant {
+	width: 30%;
+	display: inline-block;
+	padding-right: 3%;
+	padding-top: 5%;
+	padding-bottom: 15%;
+}
+
+.pricing__title {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 48px; 
+}
+
+.pricing__features {
+	color: #091133;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+.pricing__paragraph {
+	color: #5D6970;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 5%;
+}
+
+.pricing__purchase {
+	width: 189px;
+}

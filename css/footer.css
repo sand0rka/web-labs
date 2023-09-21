@@ -1,0 +1,55 @@
+.footer {
+	display: block;
+	background-color: #E7ECFF;
+}
+
+.footer__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 5%;
+}
+
+.year {
+	color: #939EA4;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.line-img {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.footer__iot-edition {
+	margin: 0 auto;
+	display: block; 
+}
+
+.footer__nav {
+	width: 240px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer__nav ul {
+	display: flex;
+	text-align: center; 
+}
+
+.footer__nav ul li {
+	color: #929ECC;
+	padding-right: 40px;
+	width: 20px;
+}
+
+.footer_icons {
+	display: flex;
+  justify-content: center;
+	padding-bottom: 5%;
+}
+
+.footer_icons a:not(:last-child) {
+	display: block;
+	padding-right: 3%;
+}

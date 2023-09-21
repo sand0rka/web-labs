@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav ul {
+	display: flex;
+}
+
+.header__nav ul li {
+	margin-right: 50px;
+	color: #505F98;
+}
+
+.header__buttons {
+	display: flex;
+}
+
+.header__learn-more {
+	margin-right: 26px;
+}
+
+.header__buy-now {
+	background: #FFD166;
+	color: #111B47;
+}

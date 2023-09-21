@@ -1,0 +1,17 @@
+.hero {
+	background-image: url(../images/ipad.svg);
+	background-repeat: no-repeat;
+  background-position: 800px 180px; 
+}
+
+.hero__inner {
+	width: 50%;
+	padding-top: 15%;
+}
+
+.hero__small-information {
+	width: 200px;
+	display: inline-block;
+	padding-right: 5%;
+	padding-top: 5%;
+}
