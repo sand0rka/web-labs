@@ -21,3 +21,39 @@
 	max-width: 100%;
 	margin-left: 30px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1069px) {
+
+	.about__container {
+		text-align: center;
+		flex-direction: column;
+	}
+
+	.about__inner {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about__small-information {
+		width: 100%;
+	}
+	.about__additional-information {
+		margin-top: 5%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 2550px) {
+	.about__image {
+		display: inline;
+		width: 50%;
+	}
+	.about__inner{
+		width: 100%;
+	}
+	.about__small-information {
+		width: 40%;
+	}
+}

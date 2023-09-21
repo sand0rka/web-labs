@@ -12,11 +12,12 @@
 
 .year {
 	color: #939EA4;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 500;
 }
 
 .line-img {
+	width: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
@@ -24,6 +25,12 @@
 .footer__iot-edition {
 	margin: 0 auto;
 	display: block; 
+}
+
+.footer__iot-edition:hover {
+  background-color: #E7ECFF; 
+  color: #111B47; 
+	border: 2px solid #111B47;
 }
 
 .footer__nav {
@@ -53,3 +60,22 @@
 	display: block;
 	padding-right: 3%;
 }
+
+@media screen and (min-width: 2550px) {
+	.footer__nav {
+		width: 500px;
+		margin: 0 auto;
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.footer__nav ul {
+		display: flex;
+		text-align: center; 
+	}
+	
+	.footer__nav ul li {
+		padding-right: 80px;
+		width: 40px;
+	}
+}	

@@ -1,8 +1,24 @@
 .hero {
 	background-image: url(../images/ipad.svg);
 	background-repeat: no-repeat;
-  background-position: 800px 180px; 
+	background-position: 800px 180px;
+	animation: slideIn 2s ease forwards;
 }
+
+.image__hero {
+	display: none;
+}
+
+@keyframes slideIn {
+	0% {
+		background-position: 1200px 180px;
+	}
+
+	100% {
+		background-position: 800px 180px;
+	}
+}
+
 
 .hero__inner {
 	width: 50%;
@@ -14,4 +30,54 @@
 	display: inline-block;
 	padding-right: 5%;
 	padding-top: 5%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1069px) {
+	.hero {
+		background-image: none;
+	}
+
+	.hero__container {
+		text-align: center;
+	}
+
+	.hero__inner {
+		width: 100%;
+	}
+
+	.hero__small-information {
+		width: 30%;
+	}
+
+	.image__hero {
+		display: inline;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1560px) {
+	.hero {
+		background-image: none;
+	}
+	.image__hero {
+		display: inline;
+		width: 50%;
+	}
+
+	.hero__container {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.hero__text {
+		width: 65%;
+	}
+
+	.hero__inner {
+		width: 80%;
+	}
+
+	.hero__small-information {
+		width: 40%;
+	}
 }

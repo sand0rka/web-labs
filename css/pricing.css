@@ -12,26 +12,50 @@
 	padding-bottom: 15%;
 }
 
+
 .pricing__title {
-	font-size: 36px;
+	font-size: 2.25em;
 	font-weight: 500;
-	line-height: 48px; 
+	line-height: 3em; 
 }
 
 .pricing__features {
 	color: #091133;
-	font-size: 22px;
+	font-size: 1.375em;
 	font-weight: 500;
-	line-height: 32px;
+	line-height: 2em;
 }
 
 .pricing__paragraph {
 	color: #5D6970;
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 0.875em;
+	line-height: 1.5em;
 	margin-bottom: 5%;
 }
 
 .pricing__purchase {
 	width: 189px;
 }
+
+.pricing__purchase:hover {
+  background-color: #ffffff; 
+  color: #111B47; 
+	border: 2px solid #111B47;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1069px) {
+	.pricing__variants {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.pricing__inner{
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 2550px) {
+  .pricing__purchase {
+		width: 350px;
+	}
+}	
