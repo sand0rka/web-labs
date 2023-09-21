@@ -3,6 +3,23 @@ body {
 	color: #37447E;
 }
 
+.container {
+	margin: 0 auto;
+	max-width: 1110px;
+}
+
+@media screen and (max-width: 450px) {
+	body {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 2550px) {
+	body {
+		font-size: 2em;
+	}
+}
+
 a {
 	text-decoration: none;
 	color: #505f98;
@@ -22,46 +39,64 @@ button {
 	background: #111B47;
 	color: #ffffff;
 	text-align: center;
-	font-size: 12px;
+	font-size: 0.75em;
 	height: 26px;
 	width: 104px;
 }
 
-.container {
-	margin: 0 auto;
-	max-width: 1110px;
+@media screen and (min-width: 2550px) {
+	button {
+		width: 200px;
+		height: 40px;
+	}
+	.container {
+		margin: 0 auto;
+		max-width: 2110px;
+	}
+
+	.footer__nav ul {
+    padding-left: 89px;
+	}
+}
+
+@media screen and (max-width: 1069px) {
+	.container {
+		padding: 0 40px;
+		margin: 0 auto;
+
+	}
 }
 
 .company-name {
-	font-size: 26px;
+	font-size: 1.625em;
 	font-weight: 900;
-	line-height: 38px;
+	line-height: 2.375em;
 }
 
 .nav-item {
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 .big-title {
-	font-size: 36px;
+	font-size: 2.25em;
 	font-weight: 500;
 	color: #091133;
 }
 
 .big-paragraph {
 	color: #6F7CB2;
-	font-size: 16px;
-	line-height: 26px;
+	font-size: 1em;
+	line-height: 1.625em;
 }
 
 .small-title {
 	font-weight: 500;
-	line-height: 26px; 
+	line-height: 1.625em;
 }
 
 .small-text {
 	color: #5D6970;
-	font-size: 12px;
-	line-height: 18px;
-	margin-bottom: 142px;  
+	font-size: 0.75em;
+	line-height: 1.125em;
+	margin-bottom: 142px;
 }
