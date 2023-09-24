@@ -72,6 +72,13 @@
 	.pricing__purchase {
 		width: 150px;
 	}	
+
+	}
+	.pricing__inner{
+		margin: 0 auto;
+		text-align: center;
+	}
+
 }
 
 @media screen and (min-width: 2550px) {
